@@ -1,0 +1,25 @@
+
+.style-switcher-item-section {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #999999;
+}
+
+.style-switcher-item-field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.style-switcher-item-field-header {
+  margin-right: 20px;
+}
+
+
+.style-switcher-repeat-field-wrapper .style-switcher-item-field, .style-switcher-repeat-add {
+  margin-left: 20px;
+}
+
+.style-switcher-remove-item {
+  font-size: .8rem;
+}

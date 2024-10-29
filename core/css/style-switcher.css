@@ -1,0 +1,45 @@
+.style-switcher-controls {
+  position: fixed;
+
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  z-index: 10000;
+}
+
+.style-switcher-open {
+  background-color: #8C181B;
+}
+
+.style-switcher-open a {
+  color: #ffffff;
+}
+
+.style-switcher-open a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+
+}
+
+.style-switcher-content {
+  max-height: 0;
+  display: flex;
+  background: #538C97;
+  background: #86bfc0;
+  background: #b9eff3;
+
+  transition: all 1s;
+}
+
+.style-switcher-content.open {
+  max-height: 50vh;
+
+  overflow: scroll;
+
+}
+
+.style-switcher-item {
+  flex: 1 0 300px;
+  margin: 20px;
+
+}
